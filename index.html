@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chigozie Anyaeji's Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cdn_modules/Ripple.js@1.2.1/ripple.css">
+  <link rel="stylesheet" href="cdn_modules/aos@2.3.4/aos.css">
+  <link rel="stylesheet" href="cdn_modules/font-awesome@6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="cdn_modules/nprogress@0.2.0/nprogress.min.css">
+</head>
+
+<body>
+  <div class="header">
+    <img src="/images/logo.png" alt="" class="logo">
+    <button class="hamburger" id="ham">
+      <div class="hamburger-top"></div>
+      <div class="hamburger-middle"></div>
+      <div class="hamburger-bottom"></div>
+    </button>
+    <ul class="header-links">
+      <li class="header-link"><a href="#about">About</a></li>
+      <li class="header-link"><a href="#services">Services</a></li>
+      <li class="header-link"><a href="#request">Request mail</a></li>
+      <li class="header-link"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="hero">
+    <div class="intro">
+      <div class="intro_text">I'm <span class="blue_text">Chigozie Anyaeji</span></div>
+      <span class="heading" id="typer"></span>
+      <div class="desc" data-aos="fade-up">Making everything possible through the power of Technology.</div>
+    </div>
+    <div class="btn-group" data-aos="fade-right">
+      <button class="btn-primary">Hire Me</button>
+      <button class="btn-sec">Download CV</button>
+      
+    </div>
+    <div class="icon-group">
+      <i class="fab fa-facebook social"></i>
+      <i class="fab fa-twitter social"></i>
+      <i class="fab fa-linkedin social"></i>
+      <i class="fab fa-whatsapp social"></i>
+      <i class="fas fa-envelope social"></i>
+    </div>
+    <!--<div class="request">
+      <div class="req-box">
+        <input type="text" class="req-input" placeholder="Your Email...">
+        <button class="btn-primary">Get in touch</button>
+      </div>
+    </div>-->
+  </div>
+  <div class="navigation" id="nav">
+    <div class="heading">Navigation</div>
+    <ul class="nav-links">
+      
+      <li class="nav-link"><a href="#about">About</a></li>
+      <li class="nav-link"><a href="#services">Services</a></li>
+      <li class="nav-link"><a href="#request">Request mail</a></li>
+      <li class="nav-link"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="section" data-aos="fade-right" id="about">
+    <div class="section-heading">About Me</div>
+    <div class="info">
+      <div class="info-column">
+        <div class="img-con">
+          <img src="/images/me.png" alt="" class="me-img">
+        </div>
+        <div class="about-desc">I am Chigozie Anyaeji Prosper, a Techie building in the field of Website Development, Mobile application development, Data Science and Machine Learning. I am passionate about digital technology, and willing to collaborate on related projects. I specialize mostly in Data Analysis, Visualization, Science and Predictive Modelling. Also, I also work on projects on Website Development and Android Application Development. </div>
+    </div>
+    <div class="personal info-column">
+      <div class="heading"><i class="fas fa-user"></i> Personal Information</div>
+      <div class="personal-info">
+        <div class="personal-item">
+          <div class="personal-name">Name</div>
+          <div class="personal-value">Chigozie Anyaeji Prosper</div>
+        </div>
+        <div class="personal-item">
+          <div class="personal-name">Email</div>
+          <div class="personal-value">chigozieanyaeji@gmail.com</div>
+        </div>
+        <div class="personal-item">
+          <div class="personal-name">Age</div>
+          <div class="personal-value">15</div>
+        </div>
+        <div class="personal-item">
+          <div class="personal-name">Location</div>
+          <div class="personal-value">Nigeria</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="section services" id="services">
+    <div class="service-heading">
+      <div class="section-heading">What i do</div>
+      <div class="section-desc">Check out some of the services I offer.</div>
+    </div>
+    <div class="card-con" data-aos="fade-down">
+      <div class="card">
+        <div class="icon-con"><i class="fas fa-table icon"></i></div>
+        <div class="card-heading">Data Science/Analysis</div>
+        <div class="card-desc">I can effectively analyze your data and help you make informed decisions. I also use tools like Python to recognize patterns in your data and make predictive models.</div>
+         <div class="stack" id="ds_stack">
+          <div class="stack_title">Top Tech Stack</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-con" data-aos="fade-right">
+      <div class="card">
+        <div class="icon-con"><i class="fas fa-robot icon"></i></div>
+        <div class="card-heading">Machine Learning</div>
+        <div class="card-desc">I train Predictive Machine Learning models on your data to give you a foresight and help you make intelligent decisions. </div>
+         <div class="stack" id="ml_stack">
+          <div class="stack_title">Top Tech Stack</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-con" data-aos="fade-up">
+      <div class="card">
+        <div class="icon-con"><i class="fas fa-code icon"></i></div>
+        <div class="card-heading">Web Development</div>
+        <div class="card-desc">Using various technologies such as HTML, CSS, JavaScript and Python, I create quality Web Applications.</div>
+         <div class="stack" id="web_stack">
+          <div class="stack_title">Top Tech Stack</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-con" data-aos="fade-right">
+      <div class="card">
+        <div class="icon-con"><i class="fab fa-android icon"></i></div>
+        <div class="card-heading">Mobile Application Development</div>
+        <div class="card-desc">Using various technologies suvh as HTML, CSS, JavaScript and Python, I create quality Web Applications.</div>
+        <div class="stack" id="app_stack">
+          <div class="stack_title">Top Tech Stack</div>
+        </div>
+      </div>
+    </div>
+    <div class="cta-stack">
+      <div class="heading">Need Any of these?</div>
+      <button class="btn-primary">Contact Me <i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+  <div class="section request" id="request">
+    <div class="request-heading" data-aos="fade-right">Get in touch</div>
+    <div class="request-desc" data-aos="fade-right">Request for a mail</div>
+    <div class="input-con" data-aos="fade-right">
+      <input type="text" class="input-inner" placeholder="Email...">
+      <button class="btn-primary request-btn">Request</button>
+    </div>
+  </div>
+  <div class="section contact" id="contact">
+    <div class="section-heading">Contact Me</div>
+    <div class="section-desc">Please fill the form below.. </div>
+    <input type="text" class="input-contact" placeholder="Name">
+    <input type="email" class="input-contact" placeholder="Email">
+    <textarea rows="10" class="input-contact-ta" placeholder="Your Message here..."></textarea>
+    <button class="btn-primary contact-btn">Send <i class="fas fa-paper-plane"></i></button>
+  </div>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__left">
+        <img src="/images/logo.png" alt="Logo" class="footer__logo">
+        <ul class="footer__social">
+          <li><a href="#"><i class="fab fa-facebook social"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter social"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin social"></i></a></li>
+          <li><a href="#"><i class="fab fa-whatsapp social"></i></a></li>
+          <li><a href="#"><i class="fas fa-envelope social"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer__right">
+        <ul class="footer__nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Work with me</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+    <script type="text/javascript" src="cdn_modules/jquery@3.7.0/jquery.min.js"></script>
+  <script type="text/javascript" src="cdn_modules/Ripple.js@1.2.1/ripple.min.js"></script>
+  <script type="text/javascript" src="cdn_modules/font-awesome@6.4.0/js/all.min.js"></script>
+  <script type="text/javascript" src="cdn_modules/typed.js@2.0.9/typed.min.js"></script>
+   <script type="text/javascript" src="cdn_modules/aos@2.3.4/aos.js"></script>
+   <script type="text/javascript" src="cdn_modules/nprogress@0.2.0/nprogress.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
